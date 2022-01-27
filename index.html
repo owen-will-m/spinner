@@ -3,76 +3,226 @@
     <meta charset="UTF-8" />
     <title>abacus spinner</title>
 
-
     <h3>look at this cute abacus spinner I made :3</h3>
     <style>
+      #circle-1 {
+        animation-name: slide;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      #circle-2 {
+        animation-name: slide2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      #circle-3 {
+        animation-name: slide3;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      #circle-4 {
+        animation-name: slide4;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
 
-#circle-1, #circle-3{
-animation-name:slide;
-animation-duration:2s;
-animation-iteration-count: infinite;
-}
-#circle-2, #circle-4{
-animation-name:slide2;
-animation-duration:2s;
-animation-iteration-count: infinite;
-}
+      @keyframes slide {
+        0% {
+          transform: translateX(0px);
+        }
+        15% {
+          transform: translateX(0px);
+        }
+        30% {
+          transform: translateX(5px);
+        }
+        45% {
+          transform: translateX(0px);
+        }
+        60% {
+          transform: translateX(0px);
+        }
+        75% {
+          transform: translateX(5px);
+        }
+        88% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
 
-#circle-4,#circle-3{
-    animation-delay: 1s;
-}
-
-@keyframes slide {
-    0%{transform: translateX(0px)}
-    25%{transform: translateX(0px)}
-    50%{transform: translateX(5px)}
-    75%{transform: translateX(0px)}
-    100%{transform: translateX(0px)}
-}
-
-@keyframes slide2 {
-  0%{transform: translateX(0px)}
-    25%{transform: translateX(5px)}
-    50%{transform: translateX(5px)}
-    75%{transform: translateX(5px)}
-    100%{transform: translateX(0px)}
-}
-
-
+      @keyframes slide2 {
+        0% {
+          transform: translateX(0px);
+        }
+        15% {
+          transform: translateX(5px);
+        }
+        30% {
+          transform: translateX(5px);
+        }
+        45% {
+          transform: translateX(0px);
+        }
+        60% {
+          transform: translateX(5px);
+        }
+        75% {
+          transform: translateX(5px);
+        }
+        88% {
+          transform: translateX(0px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
+      @keyframes slide4 {
+        0% {
+          transform: translateX(0px);
+        }
+        15% {
+          transform: translateX(0px);
+        }
+        30% {
+          transform: translateX(0px);
+        }
+        45% {
+          transform: translateX(5px);
+        }
+        60% {
+          transform: translateX(5px);
+        }
+        75% {
+          transform: translateX(5px);
+        }
+        88% {
+          transform: translateX(5px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
+      @keyframes slide3 {
+        0% {
+          transform: translateX(0px);
+        }
+        15% {
+          transform: translateX(0px);
+        }
+        30% {
+          transform: translateX(0px);
+        }
+        45% {
+          transform: translateX(0px);
+        }
+        60% {
+          transform: translateX(0px);
+        }
+        75% {
+          transform: translateX(5px);
+        }
+        88% {
+          transform: translateX(5px);
+        }
+        100% {
+          transform: translateX(0px);
+        }
+      }
     </style>
-
-
-
   </head>
   <body>
-    
-
-
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g id="Abacus">
-      <line id="Line 1" x1="0.5" y1="4.5" x2="15.5" y2="4.5" stroke="#2F5283" stroke-linecap="round"/>
-      <line id="Line 2" x1="0.5" y1="11.5" x2="15.5" y2="11.5" stroke="#2F5283" stroke-linecap="round"/>
-      <rect id="Rectangle 1" x="0.5" y="0.5" width="15" height="15" rx="0.5" stroke="#2F5283"/>
-      <rect id="circle-3" x="2.5" y="9.5" width="2" height="4" rx="0.5" fill="white" stroke="#2F5283"/>
-      <rect id="circle-1" x="2.5" y="2.5" width="2" height="4" rx="0.5" fill="white" stroke="#2F5283"/>
-      <rect id="circle-4" x="6.5" y="9.5" width="2" height="4" rx="0.5" fill="white" stroke="#2F5283"/>
-      <rect id="circle-2" x="6.5" y="2.5" width="2" height="4" rx="0.5" fill="white" stroke="#2F5283"/>
+        <line
+          id="Line 1"
+          x1="0.5"
+          y1="4.5"
+          x2="15.5"
+          y2="4.5"
+          stroke="#2F5283"
+          stroke-linecap="round"
+        />
+        <line
+          id="Line 2"
+          x1="0.5"
+          y1="11.5"
+          x2="15.5"
+          y2="11.5"
+          stroke="#2F5283"
+          stroke-linecap="round"
+        />
+        <rect
+          id="Rectangle 1"
+          x="0.5"
+          y="0.5"
+          width="15"
+          height="15"
+          rx="0.5"
+          stroke="#2F5283"
+        />
+        <rect
+          id="circle-3"
+          x="2.5"
+          y="9.5"
+          width="2"
+          height="4"
+          rx="0.5"
+          fill="white"
+          stroke="#2F5283"
+        />
+        <rect
+          id="circle-1"
+          x="2.5"
+          y="2.5"
+          width="2"
+          height="4"
+          rx="0.5"
+          fill="white"
+          stroke="#2F5283"
+        />
+        <rect
+          id="circle-4"
+          x="6.5"
+          y="9.5"
+          width="2"
+          height="4"
+          rx="0.5"
+          fill="white"
+          stroke="#2F5283"
+        />
+        <rect
+          id="circle-2"
+          x="6.5"
+          y="2.5"
+          width="2"
+          height="4"
+          rx="0.5"
+          fill="white"
+          stroke="#2F5283"
+        />
       </g>
-      </svg>
+    </svg>
 
     <script>
+      const svg = document.getElementById("triangles");
 
-        const svg = document.getElementById('triangles');
-  
-        svg.onclick = (e) => {
-          const colors = ['red', 'blue', 'green', 'orange', 'pink', 'purple']
-          const rando = () => colors[Math.floor(Math.random() * colors.length)];
-          document.documentElement.style.cssText = `
+      svg.onclick = (e) => {
+        const colors = ["red", "blue", "green", "orange", "pink", "purple"];
+        const rando = () => colors[Math.floor(Math.random() * colors.length)];
+        document.documentElement.style.cssText = `
           --dark-color: ${rando()};
           --light-color: ${rando()}; 
-          `
-        }
-  
-      </script>
+          `;
+      };
+    </script>
   </body>
 </html>
